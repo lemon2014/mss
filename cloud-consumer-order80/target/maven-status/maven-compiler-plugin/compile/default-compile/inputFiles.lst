@@ -1,8 +1,0 @@
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/org/lemon/ribbon/config/MyRibbonRule.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/OrderMain80.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/autowired/MyInterface.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/config/MyConfig.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/controller/OrderController.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/autowired/AImpl.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/lb/MyLB.java
-/Users/longmeng/lemon/cloud2020/cloud2020/cloud-consumer-order80/src/main/java/org/lemon/springcloud/lb/LoadBalancer.java

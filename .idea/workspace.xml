@@ -32,7 +32,76 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec27348-61f4-4a9a-a524-ea8efadd3ef5" name="Default Changelist" comment="" />
+    <list default="true" id="dec27348-61f4-4a9a-a524-ea8efadd3ef5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/org/lemon/springcloud/ConfigMain3344.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/schema/V1__Base_version.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/org/lemon/springcloud/ConfigClient3355.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/org/lemon/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/org/lemon/springcloud/ConfigClient3366.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3366/target/classes/org/lemon/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/org/lemon/springcloud/HystrixOrderMain80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/org/lemon/springcloud/controller/OrderHystrixController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/org/lemon/springcloud/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/org/lemon/springcloud/service/PaymentHystrixService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/classes/org/lemon/springcloud/service/PaymentHystrixServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/org/lemon/springcloud/OrderFeignMain80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/org/lemon/springcloud/config/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/org/lemon/springcloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/org/lemon/springcloud/service/PaymentFeignService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/org/lemon/springcloud/EurekaMain7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/org/lemon/springcloud/EurekaMain7002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/org/lemon/springcloud/GatewayMain9527.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-zuul9001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-zuul9001/target/classes/org/lemon/springcloud/ZuulMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-zuul9001/target/classes/org/lemon/springcloud/config/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway-zuul9001/target/classes/org/lemon/springcloud/config/ZuuPatternServiceRouteMapperConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/org/lemon/springcloud/HystrixPaymentMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/org/lemon/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/org/lemon/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/org/lemon/springcloud/PaymentMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/org/lemon/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/org/lemon/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/org/lemon/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/org/lemon/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/org/lemon/springcloud/PaymentMain8002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/org/lemon/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/org/lemon/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/org/lemon/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/org/lemon/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/org/lemon/springcloud/PaymentMain8004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/org/lemon/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/org/lemon/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/org/lemon/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/classes/org/lemon/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8004/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/classes/application.yml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +121,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/geek_springcloud/s2g-zuul" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -72,6 +141,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1ddH2sK4YhihaO3ScQbL5y6P3GW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -309,7 +379,7 @@
       <workItem from="1594379757010" duration="1082000" />
       <workItem from="1595039632793" duration="1831000" />
       <workItem from="1602626316547" duration="11835000" />
-      <workItem from="1602850833241" duration="9635000" />
+      <workItem from="1602850833241" duration="10640000" />
     </task>
     <servers />
   </component>
@@ -333,22 +403,22 @@
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
     <state x="384" y="124" key="#Project_Structure/0.23.1792.1039@0.23.1792.1039" timestamp="1602924906709" />
-    <state width="1406" height="334" key="GridCell.Tab.0.bottom" timestamp="1602931763296">
+    <state width="1750" height="448" key="GridCell.Tab.0.bottom" timestamp="1602934579468">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state width="1406" height="334" key="GridCell.Tab.0.bottom/0.23.1792.1039@0.23.1792.1039" timestamp="1602931763296" />
-    <state width="1406" height="334" key="GridCell.Tab.0.center" timestamp="1602931763296">
+    <state width="1750" height="448" key="GridCell.Tab.0.bottom/0.23.1792.1039@0.23.1792.1039" timestamp="1602934579468" />
+    <state width="1750" height="448" key="GridCell.Tab.0.center" timestamp="1602934579467">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state width="1406" height="334" key="GridCell.Tab.0.center/0.23.1792.1039@0.23.1792.1039" timestamp="1602931763296" />
-    <state width="1406" height="334" key="GridCell.Tab.0.left" timestamp="1602931763295">
+    <state width="1750" height="448" key="GridCell.Tab.0.center/0.23.1792.1039@0.23.1792.1039" timestamp="1602934579467" />
+    <state width="1750" height="448" key="GridCell.Tab.0.left" timestamp="1602934579466">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state width="1406" height="334" key="GridCell.Tab.0.left/0.23.1792.1039@0.23.1792.1039" timestamp="1602931763295" />
-    <state width="1406" height="334" key="GridCell.Tab.0.right" timestamp="1602931763296">
+    <state width="1750" height="448" key="GridCell.Tab.0.left/0.23.1792.1039@0.23.1792.1039" timestamp="1602934579466" />
+    <state width="1750" height="448" key="GridCell.Tab.0.right" timestamp="1602934579467">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
-    <state width="1406" height="334" key="GridCell.Tab.0.right/0.23.1792.1039@0.23.1792.1039" timestamp="1602931763296" />
+    <state width="1750" height="448" key="GridCell.Tab.0.right/0.23.1792.1039@0.23.1792.1039" timestamp="1602934579467" />
     <state width="1406" height="334" key="GridCell.Tab.1.bottom" timestamp="1602931763297">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
@@ -386,6 +456,10 @@
     </state>
     <state x="397" y="182" key="SettingsEditor/0.23.1792.1039@0.23.1792.1039" timestamp="1602671980364" />
     <state x="397" y="182" key="SettingsEditor/0.23.1792.1040@0.23.1792.1040" timestamp="1595080608324" />
+    <state width="646" height="467" key="SwitcherDM" timestamp="1602933436535">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state width="646" height="467" key="SwitcherDM/0.23.1792.1039@0.23.1792.1039" timestamp="1602933436535" />
     <state x="342" y="244" key="new project wizard" timestamp="1602671487532">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>

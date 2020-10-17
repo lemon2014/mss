@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.lemon.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
-            <version>${project.version}</version>v
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
