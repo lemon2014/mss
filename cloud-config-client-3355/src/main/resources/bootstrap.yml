@@ -1,0 +1,36 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+
+  # rabbitmq相关配置
+  rabbitmq:
+    host: 123.56.216.117
+    port: 5672
+    username: lemon
+    password: 123qwe123
+
+  cloud:
+    # config客户端配置
+    config:
+      label: master
+      name: config-client # 可以不用设置，默认取的是application.name
+      profile: dev
+      uri: http://localhost:3344
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+
+# 暴露监控端点  用于实时刷新config配置信息
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+
+

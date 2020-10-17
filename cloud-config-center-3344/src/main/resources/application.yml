@@ -1,0 +1,53 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name:  cloud-config-center #注册进Eureka服务器的微服务名
+
+  # rabbitmq相关配置， 客户端rabbitmq是放在spring节点下面， 服务端是放在根节点下面
+  rabbitmq:
+    host: longmeng.tech
+    port: 5672
+    username: lemon
+    password: 123qwe123
+
+#必须设置，将配置中心的存储实现切换到jdbc的方式
+  profiles:
+    active: jdbc
+
+#非必须，这里由于采用mysql数据源，key、value是保留关键词，原生的实现语句会报错，所以需要重写一下这句查询语句（如果存储的表结构设计不同于上面准备的内容，也可以通过这个属性的配置来修改配置的获取逻辑）
+  cloud:
+    config:
+      server:
+        jdbc:
+          sql: SELECT `KEY`, `VALUE` from properties where APPLICATION=? and PROFILE=? and LABEL=?
+
+  # 使用数据库配置
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+    url: jdbc:mysql://123.56.216.117:3306/vetech?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: vetech
+    password: 123qwe!@#QWE
+
+# 服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+#flyway加载schema创建sql的位置
+#flyway:
+#  locations: /schema
+
+
+
+
+# 暴露bus刷新配置的端点
+managment:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
